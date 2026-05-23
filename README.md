@@ -18,9 +18,18 @@ now click create image
 
 ![The launcher](docs/Chapters/Chapter1/figures/launcher-click-create-image-button-2026-05-23_23-08.png)
 
-pharo-launcher-step2-2026-05-23_20-08.png
+select desired version of Pharo required 
 
-If you managed to download and install pharo successfully you will be greeted with a window that looks something like this
+![The launcher](docs/Chapters/Chapter1/figures/launcher-select-desired-version-2026-05-23_23-20.png)
+
+finally click Launch to start using Pharo 
+
+![The launcher](docs/Chapters/Chapter1/figures/launcher-click-launch-button-2026-05-23_23-21.png)
+
+
+# Pharo first steps 
+
+you should be greeted with a window that looks something like this
 
 ![Start of Pharo](docs/Chapters/Chapter1/figures/pharo-welcome-14-2026-05-23_20-11.png)
 
