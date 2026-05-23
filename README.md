@@ -75,6 +75,17 @@ We can see the result is a ByteString
 
 ![Inspector](docs/Chapters/Chapter1/figures/inspector-result-is-a-bytestring-2026-05-23_23-43.png)
 
+We can delve deeper by asking how many letters are in this string 'olleH' 
+
+![Inspector](docs/Chapters/Chapter1/figures/ask-size-of-hello-reversed-2026-05-23_23-56.png)
+
+finding the answer is indeed five as expected 
+
+![Inspector](docs/Chapters/Chapter1/figures/result-small-integer-five-2026-05-23_23-59.png)
+
+what is nice is the ability to drill down as deep as want 
+
+
 
 
 # recap 
