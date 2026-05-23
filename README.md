@@ -6,10 +6,19 @@ Lets get started .
 
 This is a very simple introduction to Pharo smalltalk , what you learn here is applicable to every Smalltalk.
 
-To install pharo - you need to download the launcher 
+To install pharo - you can download and run the launcher 
 
 ![The launcher](docs/Chapters/Chapter1/figures/pharo-launcher-2026-05-23_20-07.png)
 
+click new for a new image
+
+![The launcher](docs/Chapters/Chapter1/figures/launcher- click-the-new-image-button-2026-05-23_23-12.png)
+
+now click create image
+
+![The launcher](docs/Chapters/Chapter1/figures/pharo-launcher-step2-2026-05-23_20-08.png)
+
+pharo-launcher-step2-2026-05-23_20-08.png
 
 If you managed to download and install pharo successfully you will be greeted with a window that looks something like this
 
@@ -116,6 +125,13 @@ indicator contents: 'This is the inspector region';
     extent: 200@40;
     position: 100@100;
     openInWorld.
+
+
+"change text , foreground and background colours"
+indicator color: (Color white) . 
+indicator backgroundColor: (Color black).
+indicator contents: 'Click here'.
+
 
 ```
 
