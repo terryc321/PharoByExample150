@@ -16,7 +16,7 @@ click new for a new image
 
 now click create image
 
-![The launcher](docs/Chapters/Chapter1/figures/pharo-launcher-step2-2026-05-23_20-08.png)
+![The launcher](docs/Chapters/Chapter1/figures/launcher-click-create-image-button-2026-05-23_23-08.png)
 
 pharo-launcher-step2-2026-05-23_20-08.png
 
