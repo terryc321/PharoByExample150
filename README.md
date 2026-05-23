@@ -69,9 +69,12 @@ The inspector allows us access inside the result that we got handed back.
 
 In this case the letters of Hello reversed or rather olleH .
 
-![Inspector](docs/Chapters/Chapter1/figures/playground-step2-2026-05-23_20-32.png)
+![Inspector](docs/Chapters/Chapter1/figures/plain-result-reversed-2026-05-23_23-45.png)
+
+We can see the result is a ByteString
 
 ![Inspector](docs/Chapters/Chapter1/figures/inspector-result-is-a-bytestring-2026-05-23_23-43.png)
+
 
 
 # recap 
