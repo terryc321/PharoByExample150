@@ -12,7 +12,7 @@ To install pharo - you can download and run the launcher
 
 click new for a new image
 
-![The launcher](docs/Chapters/Chapter1/figures/launcher- click-the-new-image-button-2026-05-23_23-12.png)
+![The launcher](docs/Chapters/Chapter1/figures/launcher-click-the-new-image-button-2026-05-23_23-12.png)
 
 now click create image
 
