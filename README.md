@@ -61,7 +61,7 @@ In Smalltalk something surrounded by single quotes is interpreted as a String.
 
 Lets run this program 
 
-![Playground](docs/Chapters/Chapter1/figures/playground-click-the-do-it-all-button-2026-05-23_23-37.png)
+![Playground](docs/Chapters/Chapter1/figures/click-the-do-it-all-button-2026-05-23_23-48.png)
 
 if all goes well you will see an Inspector open up 
 
