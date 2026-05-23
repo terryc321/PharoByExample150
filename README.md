@@ -30,33 +30,40 @@ Inside the playground I have written a small program , you can type this is in a
 'Hello' reverse. 
 ```
 
-The world Hello is followed by a space followed by the word reverse .  Notice also the world Hello is surround by single quote characters ' . 
+The world Hello is followed by a space followed by the word reverse .  
+
+Notice the word Hello is surround by single quote characters ' . 
 
 ![Single quote character](docs/Chapters/Chapter1/figures/single-quote.jpg)
 
-To evaluate this program can press the do it all button ![Do it all button](docs/Chapters/Chapter1/figures/do-it-all-icon-2026-05-23_21-07.png)
 
-you will see an Inspector open up. 
+To run this program can press the do it all button ![Do it all button](docs/Chapters/Chapter1/figures/do-it-all-icon-2026-05-23_21-07.png)
 
-![Inspector](docs/Chapters/Chapter1/figures/playground-step2-2026-05-23_20-32.png)
-
-What we have done is open a playground , run some code and see the result of the program having been run.
+you will see an Inspector open up 
 
 The inspector allows us access inside the result that we got handed back.
 
 In this case the letters of Hello reversed or rather olleH .
 
+![Inspector](docs/Chapters/Chapter1/figures/playground-step2-2026-05-23_20-32.png)
 
+To recap - we have opened a Playground , wrote a simple program , run the program , got the result
 
-One way of reading the program is - i give you the letters Hello and i want you to reverse them for me.  Lucky for us - this is exactly what happens.
+![Inspector](docs/Chapters/Chapter1/figures/playground-step2-2026-05-23_20-32.png)
 
-An inspector is a way to look further into the thing you got back .  
+The Playground is split into two regions 
 
-The pharo language is very procedural.
+We have a main coding area initially 
 
+![playground area](docs/Chapters/Chapter1/figures/initial-playground-area-2026-05-23_22-12.png)
 
+and inspector regions which themselves have a mini playground at the bottom
 
-A string in smalltalk is starts and ends with a single quote.
+![Inspector area](docs/Chapters/Chapter1/figures/this-is-the-inspector-region-2026-05-23_22-07.png)
+
+the mini playground at the bottom is in context of the result above 
+
+given a different result - the context will be different.
 
 
 
