@@ -53,19 +53,11 @@ Lets type a quick program into the playground
 'Hello' reverse. 
 ```
 
-In Smalltalk something surrounded by single quotes is interpreted as a String.
-
-We are sending the message 'reverse' to the string 'Hello' .
-
-
-![Playground](docs/Chapters/Chapter1/figures/playground-step1-2026-05-23_20-32.png)
-
-Inside the playground I have written a small program , you can type this is in as well 
-
-
-
 ![Single quote character](docs/Chapters/Chapter1/figures/single-quote.jpg)
 
+In Smalltalk something surrounded by single quotes is interpreted as a String.
+
+![Playground](docs/Chapters/Chapter1/figures/playground-step1-2026-05-23_20-32.png)
 
 To run this program can press the do it all button ![Do it all button](docs/Chapters/Chapter1/figures/do-it-all-icon-2026-05-23_21-07.png)
 
