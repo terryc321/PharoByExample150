@@ -6,6 +6,11 @@ Lets get started .
 
 This is a very simple introduction to Pharo smalltalk , what you learn here is applicable to every Smalltalk.
 
+To install pharo - you need to download the launcher 
+
+![The launcher](docs/Chapters/Chapter1/figures/pharo-launcher-2026-05-23_20-07.png)
+
+
 If you managed to download and install pharo successfully you will be greeted with a window that looks something like this
 
 ![Start of Pharo](docs/Chapters/Chapter1/figures/pharo-welcome-14-2026-05-23_20-11.png)
@@ -22,17 +27,24 @@ While keeping the 'Control key' pressed down , press and *release* the letter 'O
 
 you should hopefully see something like this , it will say Playground on the title of the window
 
-![Playground](docs/Chapters/Chapter1/figures/playground-step1-2026-05-23_20-32.png)
+![Empty Playground](docs/Chapters/Chapter1/figures/empty-playground-2026-05-23_22-49.png)
 
-Inside the playground I have written a small program , you can type this is in as well 
+Lets type a quick program into the playground
 
 ```
 'Hello' reverse. 
 ```
 
-The world Hello is followed by a space followed by the word reverse .  
+In Smalltalk something surrounded by single quotes is interpreted as a String.
 
-Notice the word Hello is surround by single quote characters ' . 
+We are sending the message 'reverse' to the string 'Hello' .
+
+
+![Playground](docs/Chapters/Chapter1/figures/playground-step1-2026-05-23_20-32.png)
+
+Inside the playground I have written a small program , you can type this is in as well 
+
+
 
 ![Single quote character](docs/Chapters/Chapter1/figures/single-quote.jpg)
 
@@ -69,7 +81,43 @@ given a different result - the context will be different.
 
 
 
+# Appendix 
 
+Some essential morph code to load images from local disk and internet urls , some text and circles ,
+makes highlighting and explaining what is going on a lot easier to the reader.
+
+![Essential morphs](docs/Chapters/Chapter1/figures/appendix-helpful-morphs-2026-05-23_22-59.png)
+
+
+```
+handForm := ImageReadWriter formFromFileNamed: '/home/terry/code/PharoByExample150/docs/Chapters/Chapter1/figures/hand-pointer-icon.png'.
+pointer := ImageMorph new form: handForm; openInWorld; yourself.
+
+
+handForm := ImageReadWriter formFromFileNamed: '/home/terry/code/PharoByExample150/docs/Chapters/Chapter1/figures/pharo-launcher-2026-05-23_20-07.png'.
+pointer := ImageMorph new form: handForm; openInWorld; yourself.
+
+
+"Load an image from a URL and create an ImageMorph"
+handImage := ZnEasy getPng: 'https://images.icon-icons.com/1464/PNG/512/pointinghand_100160.png'.
+pointer := ImageMorph new form: handImage; openInWorld; yourself.
+
+"Move it programmatically"
+pointer position: 300@300.
+
+circle := CircleMorph new openInWorld ; color: (Color white alpha: 0.0) ; borderWidth: 5 ; borderColor: (Color green) ; extent: 300@300 ; yourself.
+
+"Create a TextMorph with explanatory text"
+indicator := TextMorph new.
+indicator contents: 'This is the inspector region';
+    color: Color yellow;
+    borderWidth: 3;
+    borderColor: Color black;
+    extent: 200@40;
+    position: 100@100;
+    openInWorld.
+
+```
 
 
 
