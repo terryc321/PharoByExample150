@@ -59,15 +59,21 @@ In Smalltalk something surrounded by single quotes is interpreted as a String.
 
 ![Playground](docs/Chapters/Chapter1/figures/playground-step1-2026-05-23_20-32.png)
 
-To run this program can press the do it all button ![Do it all button](docs/Chapters/Chapter1/figures/do-it-all-icon-2026-05-23_21-07.png)
+Lets run this program 
 
-you will see an Inspector open up 
+![Playground](docs/Chapters/Chapter1/figures/click-do-it-2026-05-23_21-56.png)
+
+if all goes well you will see an Inspector open up 
 
 The inspector allows us access inside the result that we got handed back.
 
 In this case the letters of Hello reversed or rather olleH .
 
 ![Inspector](docs/Chapters/Chapter1/figures/playground-step2-2026-05-23_20-32.png)
+
+
+# recap 
+
 
 To recap - we have opened a Playground , wrote a simple program , run the program , got the result
 
