@@ -8,9 +8,9 @@ This is a very simple introduction to Pharo smalltalk , what you learn here is a
 
 If you managed to download and install pharo successfully you will be greeted with a window that looks something like this
 
-![Start of Pharo](docs/Chapters/Chapter1/figures/pharo-welcome-2026-05-23_20-11.png)
+![Start of Pharo](docs/Chapters/Chapter1/figures/pharo-welcome-14-2026-05-23_20-11.png)
 
-This is the welcome screen of Pharo - Pharo 13 to be precise. 
+This is the welcome screen of Pharo 
 
 As a beginner you will want to start with the Playground.
 
