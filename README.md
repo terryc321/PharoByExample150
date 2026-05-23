@@ -71,6 +71,8 @@ In this case the letters of Hello reversed or rather olleH .
 
 ![Inspector](docs/Chapters/Chapter1/figures/playground-step2-2026-05-23_20-32.png)
 
+![Inspector](docs/Chapters/Chapter1/figures/inspector-result-is-a-bytestring-2026-05-23_23-43.png)
+
 
 # recap 
 
