@@ -76,11 +76,31 @@ We can compute anything in either window we wish .
 ![Inspector](docs/Chapters/Chapter1/figures/we-can-compute-anything-here-2026-05-24_01-26.png)
 
 
+![Inspector](docs/Chapters/Chapter1/figures/the-inspector-bubble-2026-05-24_02-39.png)
 
-We can drill deeper by asking how many letters are in this string 'olleH' . To do this we must select
-the code we want - then press Control g - this runs 'Do it and Go'
+
+![Inspector](docs/Chapters/Chapter1/figures/click-this-to-close-last-inspector-2026-05-24_02-33.png)
+
+We can ask how many letters are in the string 'olleH' . 
+
+```
+'olleH' size.
+```
+
+select the code - then press Control g.
 
 ![Inspector](docs/Chapters/Chapter1/figures/ask-size-of-hello-reversed-2026-05-23_23-56.png)
+
+Selecting code and pressing Control g runs 'Do it and Go' procedure.  This will evaluate the code and if happy open an inspector window on the result.
+
+We could also have written 
+
+```
+self size
+```
+
+
+
 
 Interestingly we can also just use the word 'self' to refer to the SmallInteger (5). 
 
