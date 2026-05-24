@@ -43,9 +43,13 @@ Holding down the 'Control key' - your keyboard may have a key that says 'Ctrl' .
 
 While keeping the 'Control key' pressed down , press and *release* the letter 'O' key - O for Oranges , now press and *release* the letter 'P' key - P for Peter .
 
+## Empty Playground 
+
 you should hopefully see something like this , it will say Playground on the title of the window
 
 ![Empty Playground](docs/Chapters/Chapter1/figures/empty-playground-2026-05-23_22-49.png)
+
+## A Simple Program 
 
 Lets type a quick program into the playground
 
@@ -58,6 +62,8 @@ Lets type a quick program into the playground
 In Smalltalk something surrounded by single quotes is interpreted as a String.
 
 ![Playground](docs/Chapters/Chapter1/figures/playground-step1-2026-05-23_20-32.png)
+
+## Run the program 
 
 Lets run this program 
 
@@ -85,6 +91,13 @@ finding the answer is indeed five as expected
 
 what is nice is the ability to drill down as deep as want 
 
+Lets see if five really is greater than four 
+
+![Inspector](docs/Chapters/Chapter1/figures/self-is-the-number-five-2026-05-24_01-08.png)
+
+We can now say for definite that five really is greater than four
+
+![Inspector](docs/Chapters/Chapter1/figures/five-greater-than-four-is-true-2026-05-24_01-09.png)
 
 
 
