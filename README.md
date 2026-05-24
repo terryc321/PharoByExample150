@@ -63,11 +63,11 @@ Lets run this program
 
 ![Playground](docs/Chapters/Chapter1/figures/click-the-do-it-all-button-2026-05-23_23-48.png)
 
-The consequence of 'Do it and go' mean the results go into next movie slide to the right of current code window
+Alternatively we can select code and right click 'Do it and go' .  This will mean the results go into next movie slide to the right of current code window.
 
 ![Playground](docs/Chapters/Chapter1/figures/action-consequence-2026-05-24_02-47.png)
 
-This box that has opened up to the right is called an Inspector.  The inspector allows us access inside the result that we got handed back. In this case the letters of Hello reversed or rather olleH .
+This box that has opened up to the right is called an Inspector.  The inspector allows us special access inside the result that we got handed back. In this case the letters of Hello reversed or rather olleH .
 
 ![Inspector](docs/Chapters/Chapter1/figures/plain-result-reversed-2026-05-23_23-45.png)
 
@@ -78,6 +78,7 @@ We can see the result is a ByteString.
 We can compute anything in either window we wish . 
 
 ![Inspector](docs/Chapters/Chapter1/figures/we-can-compute-anything-here-2026-05-24_01-26.png)
+
 
 
 ![Inspector](docs/Chapters/Chapter1/figures/the-inspector-bubble-2026-05-24_02-39.png)
