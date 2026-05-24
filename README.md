@@ -97,9 +97,7 @@ We see for the first time the true horror of inheritance ByteString inherits fro
 
 ![Inspector](docs/Chapters/Chapter1/figures/meta-class-tab-inspector-2026-05-24_03-31.png)
 
-### Human genomic strings
-
-To understand the true scale of computing today the human genome string is reported to be 3.2 billion base pairs.  Understanding how to work with such a large 'string' takes a different approach that to say a string is an array which can be allocated on the heap and job done.
+### Human strings
 
 ```
 The haploid human genome consists of approximately 3.2 billion base
@@ -116,23 +114,9 @@ and back more than 41 times.  Composition: The genome is divided into
 smaller mitochondrial genome of 16,569 base pairs.
 ```
 
-What type of questions are asked of a genomic string ? 
-
-What are base pairs ? 
-
-What are these A C G and T things ? 
-
-what is DNA ? 
-
-how does it differ from RNA of plants ?
-
-how does a potato self replicate ?
-
-
-# Track 
+## string size
 
 We can ask how many letters are in the string 'olleH' . 
-
 
 Write this into the ByteString (olleH) inspector code area , select the code - then press Control g.
 
@@ -162,38 +146,15 @@ We can see the result again is 5 .
 
 ![Inspector](docs/Chapters/Chapter1/figures/again-the-result-is-five-2026-05-24_04-03.png)
 
-# OK OK OK 
+## Playgrounds are everywhere
 
-
-Selecting code and pressing Control g runs 'Do it and Go' procedure.  This will evaluate the code and if happy open an inspector window on the result.  We could also have written 
-
-
-![Inspector](docs/Chapters/Chapter1/figures/self-is-olleH-2026-05-24_03-05.png)
-
-
-
-Again the result is 5 .
-
-
+Selecting code and pressing Control g runs 'Do it and Go' procedure.  This will evaluate the code and if happy open an inspector window on the result. 
 
 We note that we can compute anything in either window we wish . 
 
 ![Inspector](docs/Chapters/Chapter1/figures/we-can-compute-anything-here-2026-05-24_01-26.png)
 
 
-
-
-![Inspector](docs/Chapters/Chapter1/figures/click-this-to-close-last-inspector-2026-05-24_02-33.png)
-
-
-
-![Inspector](docs/Chapters/Chapter1/figures/five-greater-than-four-is-true-2026-05-24_01-09.png)
-
-finding the answer is indeed five as expected 
-
-![Inspector](docs/Chapters/Chapter1/figures/result-small-integer-five-2026-05-23_23-59.png)
-
-what is nice is the ability to drill down as deep as want.
 
 Lets check our sanity that five really is greater than four.  In Pharo this looks like 
 
