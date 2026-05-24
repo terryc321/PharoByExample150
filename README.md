@@ -63,7 +63,11 @@ Lets run this program
 
 ![Playground](docs/Chapters/Chapter1/figures/click-the-do-it-all-button-2026-05-23_23-48.png)
 
-if all goes well you will see an Inspector open up . The inspector allows us access inside the result that we got handed back. In this case the letters of Hello reversed or rather olleH .
+The consequence of 'Do it and go' mean the results go into next movie slide to the right of current code window
+
+![Playground](docs/Chapters/Chapter1/figures/action-consequence-2026-05-24_02-47.png)
+
+This box that has opened up to the right is called an Inspector.  The inspector allows us access inside the result that we got handed back. In this case the letters of Hello reversed or rather olleH .
 
 ![Inspector](docs/Chapters/Chapter1/figures/plain-result-reversed-2026-05-23_23-45.png)
 
