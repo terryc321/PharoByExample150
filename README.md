@@ -265,7 +265,11 @@ indicator contents: 'Click here'.
 
 ```
 
-really annoying to have to keep trying to find the edge of the playground
+really annoying to have to keep trying to find the edge of the playground to send it to the back of the 
+morph stack so i can see my fancy peter pointers , circles and ellipses.
+
+we could just write a scanner over smalltalk objects that are StPlaygroundPresenter and send them to 
+back but a single button tied to a single playground seems agreeable.
 
 lets create a button which will send the playground to the back of the stack
 
@@ -275,6 +279,8 @@ Object << #GoodPlayground
 	slots: { #play . #button };
 	package: 'YourTools'
 ```
+
+Now the instance methods for this GoodPlayground
 
 ```
 initialize
@@ -294,7 +300,7 @@ initialize
 	button openInWorld.
 ```
 
-something for the playground to initially show when it opens up 
+something written in playground to initially show when it opens up 
 
 ```
 playgroundContents 
