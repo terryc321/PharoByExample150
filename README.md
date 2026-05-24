@@ -204,4 +204,10 @@ aSpWindowPresenter window sendToBack.
 
 so my hand morphs and circles etc can be drawn over top of the playground
 
+we can change text on the SimpleButtonMorph
+
+```
+self label: 'Send to Back'.
+```
+
 
