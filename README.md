@@ -78,9 +78,13 @@ We can compute anything in either window we wish .
 
 
 We can drill deeper by asking how many letters are in this string 'olleH' . To do this we must select
-the code we want - then press Control g - this runs 'Do it and Go' , which means it will execute the code and open a further inspector window on the results to the right of current window. Every execution in subsequent windows using Control g will open up further windows, drilling deeper and deeper.
+the code we want - then press Control g - this runs 'Do it and Go'
 
 ![Inspector](docs/Chapters/Chapter1/figures/ask-size-of-hello-reversed-2026-05-23_23-56.png)
+
+Interestingly we can also just use the word 'self' to refer to the SmallInteger (5). 
+
+![Inspector](docs/Chapters/Chapter1/figures/five-greater-than-four-is-true-2026-05-24_01-09.png)
 
 finding the answer is indeed five as expected 
 
