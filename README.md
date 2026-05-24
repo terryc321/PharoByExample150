@@ -86,9 +86,30 @@ finding the answer is indeed five as expected
 
 ![Inspector](docs/Chapters/Chapter1/figures/result-small-integer-five-2026-05-23_23-59.png)
 
-what is nice is the ability to drill down as deep as want 
+what is nice is the ability to drill down as deep as want.
 
-Lets see if five really is greater than four 
+Lets check our sanity that five really is greater than four.  In Pharo this looks like 
+
+```
+5 > 4 
+```
+
+![Inspector](docs/Chapters/Chapter1/figures/sanity-check-five-is-greater-than-four-2026-05-24_02-10.png)
+
+We select the code ``` 5 > 4 ``` then right click mouse and choose 'Do it and Go' . Another inspection window will open like the next frame of a movie to the right , showing the result of the computation.
+
+![Inspector](docs/Chapters/Chapter1/figures/check-five-is-greater-than-four-2026-05-24_02-12.png)
+
+Thankfully it is still correct.
+
+# Delay introduction of concept of self 
+
+
+We are saying given the result i have just received - namely the SmallInteger (5) , is it greater than `>` , 4 
+
+```
+self > 4 
+```
 
 ![Inspector](docs/Chapters/Chapter1/figures/self-is-the-number-five-2026-05-24_01-08.png)
 
