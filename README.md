@@ -79,6 +79,12 @@ In this case the letters of Hello reversed or rather olleH .
 
 We can see the result is a ByteString
 
+We can compute anything in either window we wish . 
+
+![Inspector](docs/Chapters/Chapter1/figures/we-can-compute-anything-here-2026-05-24_01-26.png)
+
+
+
 ![Inspector](docs/Chapters/Chapter1/figures/inspector-result-is-a-bytestring-2026-05-23_23-43.png)
 
 We can delve deeper by asking how many letters are in this string 'olleH' 
@@ -98,6 +104,27 @@ Lets see if five really is greater than four
 We can now say for definite that five really is greater than four
 
 ![Inspector](docs/Chapters/Chapter1/figures/five-greater-than-four-is-true-2026-05-24_01-09.png)
+
+It is important to note that the word self has special meaning in smalltalk.
+
+Let us look once again at the size of a ByteString . We can drill down by selecting what we 
+want to examine further by selecting the code and typing Control g .
+
+This will tell pharo to 'Do it and Go' .
+
+![Inspector](docs/Chapters/Chapter1/figures/self-size-do-it-and-go-2026-05-24_01-31.png)
+
+Now we see two inspection windows which both refer to their own self . 
+
+The self on the left bubble is talking about a ByteString . 
+
+The self on the right bubble is talking about the SmallInteger (5) .
+
+![Inspector](docs/Chapters/Chapter1/figures/different-self-bubbles-2026-05-24_01-42.png)
+
+
+
+
 
 
 
@@ -151,6 +178,11 @@ pointer := ImageMorph new form: handImage; openInWorld; yourself.
 pointer position: 300@300.
 
 circle := CircleMorph new openInWorld ; color: (Color white alpha: 0.0) ; borderWidth: 5 ; borderColor: (Color green) ; extent: 300@300 ; yourself.
+
+
+ellipse := EllipseMorph new openInWorld ; color: (Color white alpha: 0.0) ; borderWidth: 5 ; borderColor: (Color orange) ; extent: 300@300 ; yourself.
+
+
 
 "Create a TextMorph with explanatory text"
 indicator := TextMorph new.
