@@ -71,22 +71,13 @@ This box that has opened up to the right is called an Inspector.  The inspector 
 
 ![Inspector](docs/Chapters/Chapter1/figures/the-inspector-bubble-2026-05-24_02-39.png)
 
-Lets return to this potato
+Lets return to this result from reversing the string 'Hello' .
 
 ![Inspector](docs/Chapters/Chapter1/figures/plain-result-reversed-2026-05-23_23-45.png)
 
 We can see the result is a ByteString. 
 
 ![Inspector](docs/Chapters/Chapter1/figures/inspector-result-is-a-bytestring-2026-05-23_23-43.png)
-
-We can compute anything in either window we wish . 
-
-![Inspector](docs/Chapters/Chapter1/figures/we-can-compute-anything-here-2026-05-24_01-26.png)
-
-
-
-
-![Inspector](docs/Chapters/Chapter1/figures/click-this-to-close-last-inspector-2026-05-24_02-33.png)
 
 We can ask how many letters are in the string 'olleH' . 
 
@@ -105,6 +96,20 @@ self size
 ```
 
 ![Inspector](docs/Chapters/Chapter1/figures/self-is-olleH-2026-05-24_03-05.png)
+
+ok now ready tomato .
+
+
+
+
+We note that we can compute anything in either window we wish . 
+
+![Inspector](docs/Chapters/Chapter1/figures/we-can-compute-anything-here-2026-05-24_01-26.png)
+
+
+
+
+![Inspector](docs/Chapters/Chapter1/figures/click-this-to-close-last-inspector-2026-05-24_02-33.png)
 
 
 
