@@ -155,8 +155,46 @@ We note that we can compute anything in either window we wish .
 ![Inspector](docs/Chapters/Chapter1/figures/we-can-compute-anything-here-2026-05-24_01-26.png)
 
 
+## Sanity check
 
-Lets check our sanity that five really is greater than four.  In Pharo this looks like 
+Lets check our sanity.  We know our ByteString is 5 characters long , lets see if pharo agrees that 5 
+is greater than 4 . We use self again to refer to the SmallInteger 5 .  Effectively it is 5 but leaky abstraction tells us it is a small integer if we even care.
+
+```
+self > 4 
+```
+
+![Inspector](docs/Chapters/Chapter1/figures/self-is-the-number-five-2026-05-24_01-08.png)
+
+To confirm that pharo agrees
+
+![Inspector](docs/Chapters/Chapter1/figures/five-greater-than-four-is-true-2026-05-24_01-09.png)
+
+## Self 
+
+An important part of learning smalltalk is that 'self' means different things in different contexts. 
+
+This time we see a black window to highlight an important fact , self means the result the inspector is currently showing.
+
+![Inspector](docs/Chapters/Chapter1/figures/self-size-do-it-and-go-2026-05-24_01-31.png)
+
+Here we can see two inspection windows which both refer to their own self - each self has nothing at 
+all in common with the other self. 
+
+The self on the left bubble is talking about a ByteString - a sequence of characters. 
+
+The self on the right bubble is talking about the number five - SmallInteger (5) .
+
+![Inspector](docs/Chapters/Chapter1/figures/different-self-bubbles-2026-05-24_01-42.png)
+
+
+
+## 
+
+
+## 
+
+
 
 ```
 5 > 4 
@@ -175,15 +213,6 @@ Thankfully it is still correct.
 
 We are saying given the result i have just received - namely the SmallInteger (5) , is it greater than `>` , 4 
 
-```
-self > 4 
-```
-
-![Inspector](docs/Chapters/Chapter1/figures/self-is-the-number-five-2026-05-24_01-08.png)
-
-We can now say for definite that five really is greater than four
-
-![Inspector](docs/Chapters/Chapter1/figures/five-greater-than-four-is-true-2026-05-24_01-09.png)
 
 It is important to note that the word self has special meaning in smalltalk.
 
@@ -191,16 +220,6 @@ Let us look once again at the size of a ByteString . We can drill down by select
 want to examine further by selecting the code and typing Control g .
 
 This will tell pharo to 'Do it and Go' .
-
-![Inspector](docs/Chapters/Chapter1/figures/self-size-do-it-and-go-2026-05-24_01-31.png)
-
-Now we see two inspection windows which both refer to their own self . 
-
-The self on the left bubble is talking about a ByteString . 
-
-The self on the right bubble is talking about the SmallInteger (5) .
-
-![Inspector](docs/Chapters/Chapter1/figures/different-self-bubbles-2026-05-24_01-42.png)
 
 
 
