@@ -189,48 +189,13 @@ The self on the right bubble is talking about the number five - SmallInteger (5)
 
 
 
-## 
+# Review 
 
 
-## 
+we have opened a Playground , wrote a simple program , run the program , got the result by opening 
+inspectors , closed inspectors and created new results
 
-
-
-```
-5 > 4 
-```
-
-![Inspector](docs/Chapters/Chapter1/figures/sanity-check-five-is-greater-than-four-2026-05-24_02-10.png)
-
-We select the code ``` 5 > 4 ``` then right click mouse and choose 'Do it and Go' . Another inspection window will open like the next frame of a movie to the right , showing the result of the computation.
-
-![Inspector](docs/Chapters/Chapter1/figures/check-five-is-greater-than-four-2026-05-24_02-12.png)
-
-Thankfully it is still correct.
-
-# Delay introduction of concept of self 
-
-
-We are saying given the result i have just received - namely the SmallInteger (5) , is it greater than `>` , 4 
-
-
-It is important to note that the word self has special meaning in smalltalk.
-
-Let us look once again at the size of a ByteString . We can drill down by selecting what we 
-want to examine further by selecting the code and typing Control g .
-
-This will tell pharo to 'Do it and Go' .
-
-
-
-
-
-
-
-# recap 
-
-
-To recap - we have opened a Playground , wrote a simple program , run the program , got the result
+Here the two main areas of playground
 
 ![Inspector](docs/Chapters/Chapter1/figures/playground-step2-2026-05-23_20-32.png)
 
@@ -246,10 +211,8 @@ and inspector regions which themselves have a mini playground at the bottom
 
 the mini playground at the bottom is in context of the result above 
 
-given a different result - the context will be different.
-
-
-
+given a different result - the context will be different - self will mean whatever the result above
+is showing.
 
 
 # Appendix 
