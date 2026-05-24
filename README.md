@@ -97,16 +97,23 @@ We see for the first time the true horror of inheritance ByteString inherits fro
 
 ![Inspector](docs/Chapters/Chapter1/figures/meta-class-tab-inspector-2026-05-24_03-31.png)
 
-### Aside - Human genomic strings
+### Human genomic strings
 
 To understand the true scale of computing today the human genome string is reported to be 3.2 billion base pairs.  Understanding how to work with such a large 'string' takes a different approach that to say a string is an array which can be allocated on the heap and job done.
 
 ```
-The haploid human genome consists of approximately 3.2 billion base pairs (specifically 3,286,906,305 bp).  This genetic string requires about 750 megabytes of digital storage space to represent. 
+The haploid human genome consists of approximately 3.2 billion base
+pairs (specifically 3,286,906,305 bp).  This genetic string requires
+about 750 megabytes of digital storage space to represent.
 
-Physical Length: If stretched out, the DNA in a single diploid cell (containing two copies of the genome) is approximately 206 centimeters (about 6.7 feet) long. 
-Total Body Length: The total length of nuclear DNA in a single human individual, across all nucleated cells, extends roughly 6.2 billion kilometers, which is enough to travel to the Sun and back more than 41 times. 
-Composition: The genome is divided into 24 distinct nuclear chromosomes (22 autosomes plus X and Y) and a much smaller mitochondrial genome of 16,569 base pairs.
+Physical Length: If stretched out, the DNA in a single diploid cell
+(containing two copies of the genome) is approximately 206 centimeters
+(about 6.7 feet) long.  Total Body Length: The total length of nuclear
+DNA in a single human individual, across all nucleated cells, extends
+roughly 6.2 billion kilometers, which is enough to travel to the Sun
+and back more than 41 times.  Composition: The genome is divided into
+24 distinct nuclear chromosomes (22 autosomes plus X and Y) and a much
+smaller mitochondrial genome of 16,569 base pairs.
 ```
 
 What type of questions are asked of a genomic string ? 
