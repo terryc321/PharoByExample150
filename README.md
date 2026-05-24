@@ -43,13 +43,13 @@ Holding down the 'Control key' - your keyboard may have a key that says 'Ctrl' .
 
 While keeping the 'Control key' pressed down , press and *release* the letter 'O' key - O for Oranges , now press and *release* the letter 'P' key - P for Peter .
 
-## Empty Playground 
-
 you should hopefully see something like this , it will say Playground on the title of the window
 
 ![Empty Playground](docs/Chapters/Chapter1/figures/empty-playground-2026-05-23_22-49.png)
 
-## A Simple Program 
+In Smalltalk something surrounded by single quotes is interpreted as a String.
+
+![Single quote character](docs/Chapters/Chapter1/figures/single-quote.jpg)
 
 Lets type a quick program into the playground
 
@@ -57,13 +57,7 @@ Lets type a quick program into the playground
 'Hello' reverse. 
 ```
 
-![Single quote character](docs/Chapters/Chapter1/figures/single-quote.jpg)
-
-In Smalltalk something surrounded by single quotes is interpreted as a String.
-
 ![Playground](docs/Chapters/Chapter1/figures/playground-step1-2026-05-23_20-32.png)
-
-## Run the program 
 
 Lets run this program 
 
