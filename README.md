@@ -158,5 +158,50 @@ indicator contents: 'Click here'.
 
 ```
 
+really annoying to have to keep trying to find the edge of the playground
+
+lets create a button which will send the playground to the back of the stack
+
+Lets create a playground class with slots '#play' and '#button'.
+```
+Object << #GoodPlayground
+	slots: { #play . #button };
+	package: 'YourTools'
+```
+
+```
+initialize
+
+ "lets create a simple playground with some initial content"
+	play := StPlayground openContents: self playgroundContents. 
+
+	"lets create a simple button to do something useful "
+	button := SimpleButtonMorph new
+		          label: 'Run Code';
+		          target: self;
+		          actionSelector: #processInput:;
+		          arguments: { play };
+		          color: Color black;
+		          yourself. 
+	"Add button to world or another morph"
+	button openInWorld.
+```
+
+something for the playground to initially show when it opens up 
+
+```
+playgroundContents 
+^ '''Hello'' reverse.'
+```
+
+and the all important function we needed at start to send the thing to the back , 
+
+
+```
+processInput: aSpWindowPresenter
+aSpWindowPresenter window sendToBack.
+```
+
+so my hand morphs and circles etc can be drawn over top of the playground
 
 
