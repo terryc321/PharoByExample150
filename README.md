@@ -96,18 +96,15 @@ select the code - then press Control g.
 
 ![Inspector](docs/Chapters/Chapter1/figures/ask-size-of-hello-reversed-2026-05-23_23-56.png)
 
-Selecting code and pressing Control g runs 'Do it and Go' procedure.  This will evaluate the code and if happy open an inspector window on the result.
-
-We could also have written 
+Selecting code and pressing Control g runs 'Do it and Go' procedure.  This will evaluate the code and if happy open an inspector window on the result.  We could also have written 
 
 ```
 self size
 ```
 
+![Inspector](docs/Chapters/Chapter1/figures/self-is-olleH-2026-05-24_03-05.png)
 
 
-
-Interestingly we can also just use the word 'self' to refer to the SmallInteger (5). 
 
 ![Inspector](docs/Chapters/Chapter1/figures/five-greater-than-four-is-true-2026-05-24_01-09.png)
 
