@@ -79,6 +79,50 @@ We can see the result is a ByteString.
 
 ![Inspector](docs/Chapters/Chapter1/figures/inspector-result-is-a-bytestring-2026-05-23_23-43.png)
 
+The result is displayed in what is called the Inspector. The inspector is capable of making different views of a result. The preview tab is currently selected , preview can be likened to a quick glimpse of an object.
+
+![Inspector](docs/Chapters/Chapter1/figures/different-views-inspector-2026-05-24_03-19.png)
+
+The items view tab shows letters of the string in a numbered list format , so can see for instance the fourth letter of the string 'olleH' is the letter `$e` . A dollar sign infront of a letter in Smalltalk means that it is taken to mean a character.
+
+![Inspector](docs/Chapters/Chapter1/figures/string-items-2026-05-24_03-24.png)
+
+The full content tab shows all of the string
+
+![Inspector](docs/Chapters/Chapter1/figures/full-content-string-2026-05-24_03-27.png)
+
+There are a few other tabs but last is common to all objects and is called the meta tab. The meta tab shows the class hierarchy , methods and one method selected shows its own source code.
+
+We see for the first time the true horror of inheritance ByteString inherits from String . String inherits from ArrayedCollection.  ArrayedCollection inherits from SequenceCollection , and on and on and on.
+
+![Inspector](docs/Chapters/Chapter1/figures/meta-class-tab-inspector-2026-05-24_03-31.png)
+
+### Aside - Human genomic strings
+
+To understand the true scale of computing today the human genome string is reported to be 3.2 billion base pairs.  Understanding how to work with such a large 'string' takes a different approach that to say a string is an array which can be allocated on the heap and job done.
+
+```
+The haploid human genome consists of approximately 3.2 billion base pairs (specifically 3,286,906,305 bp).  This genetic string requires about 750 megabytes of digital storage space to represent. 
+
+Physical Length: If stretched out, the DNA in a single diploid cell (containing two copies of the genome) is approximately 206 centimeters (about 6.7 feet) long. 
+Total Body Length: The total length of nuclear DNA in a single human individual, across all nucleated cells, extends roughly 6.2 billion kilometers, which is enough to travel to the Sun and back more than 41 times. 
+Composition: The genome is divided into 24 distinct nuclear chromosomes (22 autosomes plus X and Y) and a much smaller mitochondrial genome of 16,569 base pairs.
+```
+
+What type of questions are asked of a genomic string ? 
+
+What are base pairs ? 
+
+What are these A C G and T things ? 
+
+what is DNA ? 
+
+how does it differ from RNA of plants ?
+
+how does a potato self replicate ?
+
+## SLEEP !!!
+
 We can ask how many letters are in the string 'olleH' . 
 
 ```
@@ -97,33 +141,6 @@ self size
 
 ![Inspector](docs/Chapters/Chapter1/figures/self-is-olleH-2026-05-24_03-05.png)
 
-The inspector is capable of different views of a result. The preview tab is currently selected , 
-preview can be likened to a quick glimpse of an object.
-
-![Inspector](docs/Chapters/Chapter1/figures/different-views-inspector-2026-05-24_03-19.png)
-
-The items view tab shows letters of the string in a numbered list format , so can see for instance the fourth letter of the string 'olleH' is the letter `$e` . A dollar sign infront of a letter in Smalltalk means that it is taken to mean a character.
-
-![Inspector](docs/Chapters/Chapter1/figures/string-items-2026-05-24_03-24.png)
-
-The full content tab shows all of the string
-
-![Inspector](docs/Chapters/Chapter1/figures/full-content-string-2026-05-24_03-27.png)
-
-There are a few other tabs but last is the meta tab. The meta tab shows the class hierarchy , the methods and one method that is selected , we get a view of the method source code itself.  We see the 
-first concrete consequence of inheritance - namely ByteString inherits from String . String inherits from ArrayedCollection.  ArrayedCollection inherits from SequenceCollection , and so on.
-
-![Inspector](docs/Chapters/Chapter1/figures/meta-class-tab-inspector-2026-05-24_03-31.png)
-
-### Human genomic strings
-
-```
-The haploid human genome consists of approximately 3.2 billion base pairs (specifically 3,286,906,305 bp).  This genetic string requires about 750 megabytes of digital storage space to represent. 
-
-Physical Length: If stretched out, the DNA in a single diploid cell (containing two copies of the genome) is approximately 206 centimeters (about 6.7 feet) long. 
-Total Body Length: The total length of nuclear DNA in a single human individual, across all nucleated cells, extends roughly 6.2 billion kilometers, which is enough to travel to the Sun and back more than 41 times. 
-Composition: The genome is divided into 24 distinct nuclear chromosomes (22 autosomes plus X and Y) and a much smaller mitochondrial genome of 16,569 base pairs.
-```
 
 
 
