@@ -128,26 +128,51 @@ how does it differ from RNA of plants ?
 
 how does a potato self replicate ?
 
-## SLEEP !!!
+
+# Track 
 
 We can ask how many letters are in the string 'olleH' . 
 
-```
-'olleH' size.
-```
 
-select the code - then press Control g.
-
-![Inspector](docs/Chapters/Chapter1/figures/ask-size-of-hello-reversed-2026-05-23_23-56.png)
-
-Selecting code and pressing Control g runs 'Do it and Go' procedure.  This will evaluate the code and if happy open an inspector window on the result.  We could also have written 
+Write this into the ByteString (olleH) inspector code area , select the code - then press Control g.
 
 ```
 self size
 ```
 
+![Inspector](docs/Chapters/Chapter1/figures/self-size-inspector-2026-05-24_03-58.png)
+
+Not surprisingly the result is 5 
+
+![Inspector](docs/Chapters/Chapter1/figures/the-result-is-five-2026-05-24_03-59.png)
+
+Now close the last inspector
+
+![Inspector](docs/Chapters/Chapter1/figures/now-close-this-inspetor-2026-05-24_04-01.png)
+
+Write this into the ByteString (olleH) inspector code area , select the code - then press Control g.
+
+```
+'olleH' size.
+```
+
+![Inspector](docs/Chapters/Chapter1/figures/hello-reversed-do-it-and-go-2026-05-24_04-02.png)
+
+We can see the result again is 5 .
+
+![Inspector](docs/Chapters/Chapter1/figures/again-the-result-is-five-2026-05-24_04-03.png)
+
+# OK OK OK 
+
+
+Selecting code and pressing Control g runs 'Do it and Go' procedure.  This will evaluate the code and if happy open an inspector window on the result.  We could also have written 
+
+
 ![Inspector](docs/Chapters/Chapter1/figures/self-is-olleH-2026-05-24_03-05.png)
 
+
+
+Again the result is 5 .
 
 
 
